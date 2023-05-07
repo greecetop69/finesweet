@@ -1,0 +1,118 @@
+.we__do {
+    background-color: var(--color-green-tertiary);
+    height: 901px;
+}
+
+.we__do__wrapper {
+    margin-top: 64px;
+    padding-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.we__do__text {
+    display: grid;
+    grid-template-rows: 19px 116px 52px;
+    grid-row-gap: 18px;
+    width: 678px;
+}
+
+.we__do__text-line {
+    display: flex;
+}
+
+.we__do__line {
+    margin-right: 24px;
+    padding-bottom: 4px;
+}
+
+.wee__do__img {
+    padding-top: 32px;
+}
+
+.we__do__title,
+.we__do__title_help {
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+}
+
+.we__do__title {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.we__do__title_help {
+    font-family: var(--font-family-b);
+    font-size: 48px;
+    line-height: 58px;
+    padding-left: 97px;
+}
+
+.we__do__title_text {
+    font-family: var(--font-family-r);
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-secondary-text);
+    padding-left: 97px;
+}
+
+.functions__cards {
+    display: flex;
+    width: 462px;
+    padding-left: 97px;
+    padding-top: 15px;
+}
+
+.func__card_list li {
+    display: flex;
+}
+
+.title_card li {
+    display: flex;
+    align-items: center;
+}
+
+.title__card {
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+    font-size: 24px;
+    line-height: 28px;
+    list-style-type: none;
+    padding-bottom: 12px;
+}
+
+.title__card::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 28px;
+    margin-right: 24px;
+}
+
+.title_card_1::before {
+    background-image: url('/css/img/icons/function1.svg');
+}
+
+.title_card_2::before {
+    background-image: url('/css/img/icons/function3.svg');
+}
+
+.title_card_3::before {
+    background-image: url('/css/img/icons/function3.svg');
+}
+
+.title_card_4::before {
+    background-image: url('/css/img/icons/function4.svg');
+}
+
+.desc__card {
+    font-family: var(--font-family-r);
+    color: var(--color-secondary-text);
+    font-size: 16px;
+    line-height: 26px;
+    list-style-type: none;
+    margin-left: 52px;
+    padding-bottom: 30px;
+}

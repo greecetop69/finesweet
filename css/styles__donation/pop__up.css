@@ -1,0 +1,142 @@
+.pop__up {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 2;
+}
+
+.pop__up__container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.form__wrapper {
+    position: relative;
+    margin: auto;
+    width: 640px;
+    height: 684px;
+    background: var(--color-white);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pop__up__text {
+    width: 544px;
+    margin-top: 48px;
+}
+
+.pop__up__title {
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.pop__up__subtitle {
+    font-family: var(--font-family-r);
+    color: var(--color-secondary-text);
+    padding-top: 16px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.form__cont {
+    position: relative;
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 544px;
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+}
+
+.form__group {
+    position: relative;
+    width: 256px;
+    margin-bottom: 32px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: var(--animation);
+    opacity: .8;
+}
+
+.form__input {
+    width: 256px;
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid var(--color-border);
+    background-color: transparent;
+    outline: none;
+    transition: var(--animation);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.form__input:focus {
+    border-bottom: 1px solid var(--color-purple);
+}
+
+.form__input:focus~.form__label,
+.form__input:not(:placeholder-shown)~.form__label {
+    top: -18px;
+    font-size: 12px;
+    opacity: .5;
+}
+
+.textarea__text {
+    width: 524px;
+    height: 138px;
+    resize: none;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    background-color: transparent;
+    outline: none;
+    transition: var(--animation);
+    padding: 20px 0 0 18px;
+}
+
+.textarea__text:focus {
+    border: 1px solid var(--color-purple);
+    transition: var(--animation);
+}
+
+.textarea__text__label {
+    opacity: .8;
+    margin-bottom: 10px;
+}
+
+.button__form {
+    width: 170px;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 48px;
+}
+
+.pop__up__close {
+    cursor: pointer;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    content: '';
+    display: block;
+    border-radius: 34px;
+}
+
+.pop__up__close img {
+    border-radius: 4px;
+}

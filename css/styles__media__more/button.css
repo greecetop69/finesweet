@@ -1,0 +1,54 @@
+.black__button,
+.green__button,
+.white__button {
+    font-family: var(--font-family-m);
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.black__button {
+    padding: 12px 32px;
+    color: var(--color-white);
+    background: var(--color-primary-text);
+    border-radius: 4px;
+}
+
+.white__button {
+    padding: 16px 32px;
+    text-align: right;
+    color: var(--color-primary-text);
+    background: var(--color-white);
+    backdrop-filter: blur(80px);
+    border-radius: 4px;
+}
+
+.green__button {
+    padding: 16px 32px;
+    text-align: right;
+    color: var(--color-white);
+    background: var(--color-green-primary);
+    backdrop-filter: blur(80px);
+    border-radius: 4px;
+}
+
+.black__button:hover,
+.black__button:focus {
+    background: var(--color-secondary-text);
+    transition: var(--animation);
+}
+
+.green__button:hover,
+.green__button:focus {
+    background: var(--color-green-secondary);
+    transition: var(--animation);
+}
+
+.white__button:hover,
+.white__button:focus {
+    background: var(--color-border);
+    transition: var(--animation);
+}

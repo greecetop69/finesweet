@@ -1,0 +1,86 @@
+.projects__wrapper {
+    margin-top: 96px;
+    display: grid;
+}
+
+.projects__text {
+    display: grid;
+    grid-template-rows: 19px 116px 52px;
+    grid-row-gap: 18px;
+    width: 678px;
+}
+
+.projects__line {
+    margin-right: 24px;
+    padding-bottom: 4px;
+}
+
+.projects__title,
+.projects__title_help {
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+}
+
+.projects__title {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.projects__title_help {
+    font-family: var(--font-family-b);
+    font-size: 48px;
+    line-height: 58px;
+    padding-left: 97px;
+}
+
+.project__cards {
+    margin-top: 51px;
+    display: grid;
+    grid-template-columns: repeat(3, 411px);
+    grid-column-gap: 24px;
+}
+
+.project__card {
+    content: '';
+    display: block;
+    width: 411px;
+    height: 421px;
+    background: var(--color-black);
+    border-radius: 12px;
+}
+
+.card_pro_1 {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), url(/css/img/photos/project__card_1.jpg);
+}
+
+.card_pro_2 {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), url(/css/img/photos/project__card_2.jpg);
+}
+
+.card_pro_3 {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), url(/css/img/photos/project__card_3.jpg);
+}
+
+.project__title {
+    padding: 80px 48px 16px 48px;
+    font-family: var(--font-family-b);
+    color: var(--color-white);
+    font-size: 28px;
+    line-height: 42px;
+    width: 315px;
+}
+
+.project__subtitle {
+    padding: 0 48px 64px 48px;
+    font-family: var(--font-family-r);
+    color: var(--color-white);
+    font-size: 16px;
+    line-height: 26px;
+    width: 315px;
+}
+
+.project__button {
+    padding: 0 231px 48px 48px;
+}

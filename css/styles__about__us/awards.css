@@ -1,0 +1,49 @@
+.awards__wrapper {
+    display: grid;
+    text-align: center;
+}
+
+.award__title {
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+}
+
+.award__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 133px);
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    vertical-align: middle;
+}
+
+.award__card__wrapper {
+    margin-top: 48px;
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+    text-align: center;
+}
+
+.award__year {
+    padding-top: 16px;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.award__card__title {
+    padding-top: 4px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.award__card__subtitle {
+    font-family: var(--font-family-m);
+    padding-top: 4px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}

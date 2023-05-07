@@ -1,0 +1,69 @@
+.green__back {
+    background-color: var(--color-green-tertiary);
+    height: 467px;
+}
+
+.top__news__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.top__news__text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 680px;
+}
+
+.top__news__title,
+.top__news__title_help {
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+    align-items: center;
+}
+
+.top__news__title {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.top__news__title_help {
+    font-family: var(--font-family-b);
+    font-size: 65px;
+    line-height: 67px;
+}
+
+.top__news__title_text {
+    font-family: var(--font-family-l);
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--color-primary-text);
+    display: flex;
+    padding-top: 40px;
+    margin-left: 26px;
+}
+
+.title_text__adress {
+    margin-right: 77px;
+    position: relative;
+}
+
+.title_text__adress::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    margin-left: -26px;
+    content: url('/css/img/icons/event__adress.svg');
+}
+
+.title_text__date::before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    margin-left: -30px;
+    content: url('/css/img/icons/event__date.svg');
+}

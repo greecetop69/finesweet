@@ -1,0 +1,123 @@
+.contribute__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contribute__text,
+.slide {
+    width: 592px;
+    margin-top: 75px;
+}
+
+.contribute__text__title,
+.name,
+.bottom__title {
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.contribute__text__subtitle,
+.text,
+.bottom__subtitle__1,
+.bottom__subtitle__2 {
+    padding-top: 24px;
+    font-family: var(--font-family-r);
+    color: var(--color-secondary-text);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.text p {
+    padding-top: 20px;
+}
+
+.rev_slider {
+    width: 592px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rev_slider ul {
+    display: flex;
+    align-items: center;
+}
+
+.rev_slider .slick-dots li:first-child ::before {
+    font-family: var(--font-family-m);
+    color: var(--color-primary-text);
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    width: 114px;
+    height: 42px;
+    border-bottom: 2px solid var(--color-green-primary);
+    content: 'Overview';
+    margin-left: -8px;
+}
+
+.rev_slider .slick-dots li:nth-child(2) ::before {
+    font-family: var(--font-family-m);
+    color: var(--color-primary-text);
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    width: 114px;
+    height: 42px;
+    border-bottom: 2px solid var(--color-green-primary);
+    content: 'Impact';
+    margin-left: 205px;
+}
+
+.rev_slider .slick-dots li:last-child ::before {
+    font-family: var(--font-family-m);
+    color: var(--color-primary-text);
+    align-items: center;
+    font-size: 16px;
+    line-height: 26px;
+    width: 114px;
+    height: 42px;
+    border-bottom: 2px solid var(--color-green-primary);
+    content: 'What You get';
+    margin-left: 415px;
+}
+
+.slick-prev:before {
+    content: '-';
+    opacity: 0;
+    background-image: url('/css/img/icons/arrow__left.svg');
+}
+
+.slick-next:before {
+    content: '-';
+    background-image: url('/css/img/icons/arrow__right.svg');
+    width: 48px;
+    height: 48px;
+    padding-top: -40px;
+}
+
+.rev_slider .slick-prev:before {
+    margin-top: 40px;
+    color: #ffffff00;
+}
+
+.rev_slider .slick-next:before {
+    color: #ffffff00;
+}
+
+.contribute__bottom {
+    margin-top: 85px;
+}
+
+.contribute__bottom__text {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom__title,
+.bottom__subtitle__1,
+.bottom__subtitle__2 {
+    width: 375px;
+}

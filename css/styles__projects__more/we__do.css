@@ -1,0 +1,101 @@
+.we__do {
+    margin-top: 75px;
+    background-color: var(--color-off-white);
+    height: 436px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.we__do__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.functions__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.func__card_list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 540px);
+    padding-left: 200px;
+}
+
+.title__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+    font-size: 24px;
+    line-height: 38px;
+    list-style-type: none;
+    padding-bottom: 12px;
+}
+
+.title__card p {
+    font-family: var(--font-family-r);
+    color: var(--color-secondary-text);
+    font-size: 16px;
+    line-height: 26px;
+    list-style-type: none;
+    margin-left: 52px;
+    padding-bottom: 30px;
+}
+
+.func__card_list li {
+    width: 488px;
+    display: flex;
+}
+
+.title_card li {
+    display: flex;
+    align-items: center;
+}
+
+.title_card li h3 {
+    position: relative;
+}
+
+.img__func__card__1::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 24px;
+    background-image: url('/css/img/icons/projects__icon1.svg');
+    background-repeat: no-repeat;
+}
+
+.img__func__card__2::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 24px;
+    background-image: url('/css/img/icons/projects__icon2.svg');
+    background-repeat: no-repeat;
+}
+
+.img__func__card__3::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 24px;
+    background-image: url('/css/img/icons/projects__icon3.svg');
+    background-repeat: no-repeat;
+}
+
+.img__func__card__4::before {
+    content: '';
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin-right: 24px;
+    background-image: url('/css/img/icons/projects__icon4.svg');
+}

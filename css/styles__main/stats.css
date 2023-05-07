@@ -1,0 +1,89 @@
+    .stats {
+        margin-top: 103px;
+        background-color: var(--color-black);
+        height: 567px;
+        color: var(--color-white);
+    }
+    
+    .stats__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .stats__text {
+        width: 611px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .stats__title_help {
+        font-family: var(--font-family-b);
+        font-size: 48px;
+        line-height: 58px;
+    }
+    
+    .stats__title_text {
+        font-family: var(--font-family-r);
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 0.6;
+        padding-top: 10px;
+    }
+    
+    .stats__value {
+        display: flex;
+        list-style-type: none;
+        padding-top: 24px;
+        font-family: var(--font-family-m);
+        font-size: 16px;
+        line-height: 26px;
+    }
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .stats__value li {
+        margin-right: 24px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+    
+    .stat__val::before {
+        content: '';
+        display: block;
+        width: 16px;
+        height: 16px;
+        border-radius: 4px;
+        margin-right: 8px;
+    }
+    
+    .value_gr::before {
+        background-color: var(--color-green-secondary);
+    }
+    
+    .value_pur::before {
+        background-color: var(--color-purple);
+    }
+    
+    .value_pink::before {
+        background-color: var(--color-pink);
+    }
+    
+    .value_or::before {
+        background-color: var(--color-orange);
+    }
+    
+    .value_yel::before {
+        background-color: var(--color-yellow);
+    }
+    
+    .stats__img {
+        padding: 96px 0px 96px 0px;
+        display: flex;
+        flex-direction: row-reverse;
+    }

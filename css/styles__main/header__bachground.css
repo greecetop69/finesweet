@@ -1,0 +1,72 @@
+.header__background {
+    background-image: url('/css/img/background/BGImage.jpg');
+    height: 735px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text__info {
+    width: 640px;
+    padding: 128px 750px 48px 0;
+}
+
+.header___background__text {
+    font-family: var(--font-family-b);
+    color: var(--color-white);
+    font-size: 64px;
+    line-height: 77px;
+}
+
+.wrapper__button-play {
+    padding-top: 48px;
+    padding-right: 30px;
+    display: flex;
+}
+
+.icon__and__href {
+    display: flex;
+    align-items: center;
+}
+
+.icon__play {
+    content: '';
+    display: block;
+    margin-left: 40px;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 999px;
+    background-image: url('/css/img/icons/play-icon.svg');
+}
+
+.play__video {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--font-family-m);
+}
+
+.play__video:hover,
+.play__video:focus {
+    outline: none;
+}
+
+.trees_elements {
+    display: flex;
+    align-items: center;
+}
+
+.trees1,
+.trees2 {
+    color: var(--color-white);
+    font-family: var(--font-family-m);
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.trees1 {
+    margin-right: 23px;
+}
+
+.trees2 {
+    margin-left: 24px;
+}

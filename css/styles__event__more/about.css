@@ -1,0 +1,31 @@
+.about__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.evets__text {
+    width: 768px;
+    font-family: var(--font-family-r);
+    color: var(--color-secondary-text);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.evets__text p:last-child {
+    padding-top: 32px;
+    padding-bottom: 0;
+}
+
+.about__title {
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+    font-size: 48px;
+    line-height: 58px;
+    padding-bottom: 32px;
+}
+
+.about__img {
+    padding-top: 32px;
+}

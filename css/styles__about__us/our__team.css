@@ -1,0 +1,77 @@
+.our__team__wrapper {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.our__team__wrapper__text {
+    width: 520px;
+    text-align: center;
+}
+
+.our__team__wrapper__title {
+    font-family: var(--font-family-b);
+    color: var(--color-primary-text);
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.our__team__wrapper__subtitle {
+    padding-top: 16px;
+    font-family: var(--font-family-r);
+    color: var(--color-secondary-text);
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.6;
+}
+
+.our__team__manage {
+    padding-top: 48px;
+}
+
+.employee__info {
+    text-align: center;
+    padding-top: 16px;
+}
+
+.manage__name {
+    font-family: var(--font-family-m);
+    color: var(--color-primary-text);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.manage__position {
+    font-family: var(--font-family-m);
+    color: var(--color-primary-text);
+    padding-top: 8px;
+    font-size: 12px;
+    line-height: 160%;
+    opacity: 0.6;
+}
+
+.emloyee__manage {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 32px;
+    /* grid-row-gap: 48px; */
+}
+
+.employee__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.employee__info__links {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.pers__photo {
+    border-radius: 8px;
+}

@@ -1,0 +1,85 @@
+.footer {
+    margin-top: 75px;
+    background-color: var(--color-black);
+    height: 402px;
+    color: var(--color-white);
+}
+
+.footer__wrapper {
+    display: flex;
+    padding-top: 96px;
+    justify-content: space-between;
+}
+
+.footer__info {
+    display: grid;
+    grid-template-columns: 83px 57px 71px;
+    justify-content: space-between;
+    grid-column-gap: 88px;
+}
+
+.footer__info a {
+    font-family: var(--font-family-r);
+    color: var(--color-white);
+    text-decoration: none;
+    outline: none;
+}
+
+.foot__info__team,
+.foot__info__more,
+.foot__info__connect {
+    display: grid;
+    grid-row-gap: 24px;
+}
+
+.foot__info__team a,
+.foot__info__more a,
+.foot__info__connect a {
+    display: flex;
+    justify-content: space-between;
+    opacity: .78;
+}
+
+.foot__info__team a:first-child,
+.foot__info__more a:first-child,
+.foot__info__connect a:first-child {
+    opacity: 1;
+}
+
+.footer__title-mail {
+    margin-left: 143px;
+}
+
+.footer__title {
+    width: 440px;
+    font-family: var(--font-family-b);
+    color: var(--color-white);
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.footer__input {
+    margin-top: 32px;
+    display: flex;
+}
+
+.footer__input input {
+    background: var(--color-black);
+    border: 1px solid var(--color-input);
+    border-radius: 4px;
+    width: 370px;
+    height: 68px;
+    resize: none;
+    opacity: .3;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(--font-family-r);
+    color: var(--color-input);
+    margin-right: -5px;
+}
+
+.footer__input input::placeholder {
+    padding: 22px 0px 23px 24px;
+}
